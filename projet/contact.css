@@ -1,0 +1,57 @@
+body{
+    background-color: wheat;
+}
+
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:thistle;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   
+}
+header h1{
+color:orangered;
+ 
+}
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: orangered;
+
+}
+nav a:hover {
+    color:#747474;
+}
+.form-floating{
+    display: inline;
+    align-items: center;
+}
+.form-control{
+   width: 800px; 
+   height: 50px;
+   margin-left: 150px;
+   margin-top: 50px;
+}
+.LIENS {
+       
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:10px;
+}
+.LIENS P{
+text-decoration: none;
+padding-left: 30px;
+color:black;
+font-size: 15px;
+font-style: italic;
+font-weight: 600;
+}
+.contact{
+    width:800px ;
+    height: 200px;
+   margin-left: 200px;
+}

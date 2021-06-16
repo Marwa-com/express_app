@@ -1,0 +1,51 @@
+body{
+    background-color:wheat;
+}
+
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:thistle;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   
+}
+header h1{
+color:orangered;
+ 
+}
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: orangered;
+
+}
+nav a:hover {
+    color:#747474;
+}
+.write{
+    width: 350px;
+}
+.clé{
+    width:100px ;
+    height: 100px;
+    margin-left: 100px;
+}
+.service{
+    width:100px ;
+    height: 150px;
+    margin-left: 100px;
+}
+.Deux{
+    margin-top:  30px; 
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.un{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}

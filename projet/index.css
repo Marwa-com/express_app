@@ -1,0 +1,57 @@
+body{
+    background-color:lightslategrey;
+}
+
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:thistle;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   
+}
+header h1{
+color:orangered;
+ 
+}
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: orangered;
+
+}
+nav a:hover {
+    color:#747474;
+}
+.welcome{
+    color:thistle;
+    font-weight: 800;
+    margin-left: 450px;
+
+}
+.logo{
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+button{
+    width: 150px; 
+    height: 50px;
+   background-color: orangered;
+   font-size: large;
+   border-radius: 15px;
+   color:rgb(185, 185, 182);
+   font-weight: 700;
+}
+.text{
+    color:white;
+    font-weight: 800;
+
+}
